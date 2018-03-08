@@ -1,0 +1,32 @@
+/* line 1, ../sass/module/_navbar.scss */
+.navbar {
+  background-color: #00cca0 !important;
+  margin-bottom: 0px !important;
+}
+/* line 4, ../sass/module/_navbar.scss */
+.navbar a {
+  color: white !important;
+}
+
+/* line 1, ../sass/module/_topbar.scss */
+.topbar {
+  padding: 15px 0px;
+  background-color: #353535;
+}
+/* line 4, ../sass/module/_topbar.scss */
+.topbar span, .topbar i {
+  font-size: 16px;
+  color: #f4cc90;
+}
+/* line 9, ../sass/module/_topbar.scss */
+.topbar--right span {
+  margin-left: 14px;
+}
+
+/* line 1, ../sass/module/_hero.scss */
+.hero {
+  background-image: url("http://s1.1zoom.me/b5144/780/Italy_Houses_Marinas_Motorboat_Venice_Canal_529850_1600x900.jpg");
+  background-size: cover;
+  height: 70vh;
+  margin-top: 0px;
+}

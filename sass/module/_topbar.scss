@@ -1,0 +1,13 @@
+.topbar{
+	padding: 15px 0px;
+	background-color: $secondary-color;
+	span,i {
+		font-size: 16px;
+		color: $textcolor1;
+	}
+	&--right{
+		span{
+			margin-left: 14px;
+		}
+	}
+}
