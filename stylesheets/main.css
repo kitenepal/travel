@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+/* line 1, ../sass/base/_base.scss */
+body {
+  background-color: #eaf8ff;
+}
+
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   background-color: #00cca0 !important;
@@ -12,13 +18,14 @@
 .topbar {
   padding: 15px 0px;
   background-color: #353535;
+  font-family: "Dosis", sans-serif;
 }
-/* line 4, ../sass/module/_topbar.scss */
+/* line 5, ../sass/module/_topbar.scss */
 .topbar span, .topbar i {
   font-size: 16px;
   color: #f4cc90;
 }
-/* line 9, ../sass/module/_topbar.scss */
+/* line 10, ../sass/module/_topbar.scss */
 .topbar--right span {
   margin-left: 14px;
 }
@@ -29,4 +36,80 @@
   background-size: cover;
   height: 70vh;
   margin-top: 0px;
+}
+
+/* line 1, ../sass/module/_card.scss */
+.holidaycard {
+  background-color: white;
+  box-shadow: 2px 2xp black;
+  padding: 20px;
+}
+/* line 5, ../sass/module/_card.scss */
+.holidaycard .btn {
+  width: 100% !important;
+  background-color: #00cca0;
+  border-radius: 0px;
+}
+/* line 9, ../sass/module/_card.scss */
+.holidaycard .btn a {
+  color: white;
+  transition: 0.3s;
+}
+
+/* line 1, ../sass/module/_diagonalslider.scss */
+html {
+  background: #d5d5d5;
+}
+
+/* line 2, ../sass/module/_diagonalslider.scss */
+#slider-k {
+  background: #fff;
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: .5rem;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+}
+
+/* line 11, ../sass/module/_diagonalslider.scss */
+#slider-k .frame-k {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  border-left: 10px solid #fff;
+  pointer: cursor;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+  transform: skewX(-20deg);
+  transition: width 0.2s ease-in-out;
+}
+
+/* line 24, ../sass/module/_diagonalslider.scss */
+#slider-k:hover div {
+  width: 108px;
+  cursor: w-resize;
+}
+
+/* line 25, ../sass/module/_diagonalslider.scss */
+#slider-k:hover div:hover {
+  width: 392px;
+}
+
+/* line 28, ../sass/module/_diagonalslider.scss */
+.frame-k img {
+  margin-left: -55px;
+  transform: skewX(20deg);
+}
+
+/* line 34, ../sass/module/_diagonalslider.scss */
+#slider-k > div:first-child {
+  margin-left: -63px;
+}
+
+/* line 35, ../sass/module/_diagonalslider.scss */
+#slider-k > div:last-child {
+  margin-right: -63px;
 }

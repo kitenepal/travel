@@ -1,0 +1,15 @@
+.holidaycard{
+  background-color: white;
+  box-shadow: 2px 2xp black;
+  padding: 20px;
+  .btn{
+    width: 100% !important;
+    background-color: $primary-color;
+    border-radius: 0px;
+    a{
+      color: white;
+      transition: 0.3s;
+    }
+  }
+}
+
